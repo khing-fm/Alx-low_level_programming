@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
-* main -  prints Holberton, followed by a new line
+* main -  prints _putchar, followed by a new line
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-_putchar('A');
-_putchar('l');
-_putchar('x');
-_putchar('S');
-_putchar('c');
-_putchar('h');
-_putchar('o');
-_putchar('l');
+char first_work[] = "_putchar";
+int j = 0;
+
+while (first_work[j] != '\0')
+{
+_putchar(first_work[j]);
+j++;
+}
 _putchar('\n');
 
 return (0);

@@ -13,7 +13,6 @@ _putchar('S');
 _putchar('c');
 _putchar('h');
 _putchar('o');
-_putchar('o');
 _putchar('l');
 _putchar('\n');
 

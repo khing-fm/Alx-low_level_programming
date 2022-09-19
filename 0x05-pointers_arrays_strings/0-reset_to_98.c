@@ -7,7 +7,7 @@
 * @n: pointer to the variable to be updated
 */
 
-void reset_to_98(int n)
+void reset_to_98(int *n)
 
 int main(void)
 {

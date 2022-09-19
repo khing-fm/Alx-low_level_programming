@@ -9,12 +9,12 @@
 * Return: void
 */
 
-void print_remaining_days(int dd, int mm, int yyyy)
+void print_remaining_days(int mm, int dd, int yyyy)
 
 {
 if (yyyy % 4 == 0 || ((yyyy % 100 == 0) && (yyyy % 400 == 0)))
 {
-if (dd >= 60 && mm > 2)
+if (mm > 2 && dd >= 60)
 {
 dd++;
 }
@@ -23,9 +23,9 @@ printf("Remaining days: %d\n", 366 - dd);
 }
 else
 {
-if (dd == 60 && mm == 2)
+if (mm == 2 && dd == 60)
 {
-printf("Invalid date: %02d/%02d/%04d\n", dd - 31, mm, yyyy);
+  printf("Invalid date: %02d/%02d/%04d\n", mm, dd - 31, yyyy);
 }
 else
 {

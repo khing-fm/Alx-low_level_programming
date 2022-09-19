@@ -18,14 +18,14 @@ if (dd >= 60 && mm > 2)
 {
 dd++;
 }
-printf("Day of the year: %d\n", day);
+printf("Day of the year: %d\n", dd);
 printf("Remaining days: %d\n", 366 - dd);
 }
 else
 {
 if (dd == 60 && mm == 2)
 {
-printf("Invalid date: %02d/%02d/%04d\n", dd, mm - 31, yyyy);
+printf("Invalid date: %02d/%02d/%04d\n", dd - 31, mm, yyyy);
 }
 else
 {

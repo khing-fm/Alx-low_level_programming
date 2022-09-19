@@ -3,11 +3,8 @@
 
 
 /**
-
 * main - test for a function that gives a correct output
-
 * Return is always 0
-
 */
 
 

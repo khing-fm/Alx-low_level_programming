@@ -10,7 +10,6 @@
 */
 
 void print_remaining_days(int mm, int dd, int yyyy)
-
 {
 if (yyyy % 4 == 0 || ((yyyy % 100 == 0) && (yyyy % 400 == 0)))
 {

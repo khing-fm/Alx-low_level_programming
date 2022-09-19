@@ -1,27 +1,19 @@
 #include "main.h"
 
-
-
 /**
 * main - test for a function that gives a correct output
 * Return is always 0
 */
 
-
-
 int main(void)
 
 {
 
-int j;
+int i;
 
+i = 0;
 
-
-j = 0;
-
-positive_or_negative(j);
-
-
+positive_or_negative(i);
 
 return (0);
 

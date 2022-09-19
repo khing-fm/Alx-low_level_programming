@@ -20,7 +20,7 @@ int j;
 
 
 
-j = 67;
+j = 0;
 
 positive_or_negative(j);
 

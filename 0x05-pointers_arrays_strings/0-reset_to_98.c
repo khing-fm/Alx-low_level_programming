@@ -1,20 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
-void reset_to_98(int *);
-
 /**
-* main - check the code for Holberton School students.
-*
-* Return: Always 0.
+* reset to 98 - updates the value of the variable
+* the pointer points to 98
+* @n: pointer to the variable to update
 */
-int main(void)
+void reset_to_98(int *n)
 {
-int n;
-
-n = 402;
-printf("%d\n", n);
-reset_to_98(&n);
-printf("%d\n", n);
-return (0);
+*n = 98;
 }

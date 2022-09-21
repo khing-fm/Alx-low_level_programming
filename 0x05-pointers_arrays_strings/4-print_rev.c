@@ -6,13 +6,19 @@
 */
 void print_rev(char *s)
 {
-int count = 0;
+int i, j, len;
 
-while (count >= 0)
+i = 0;
+while (s[i] != '\0')
 {
-if (s[count} == '\o')
-break;
+++;
 }
-for (count--; count >= 0; count--)
-_putchar(s[count]);
+
+len = i;
+
+for (j = len - 1; j >= 0; j--)
+{
+_putchar(s[j]);
+}
+_putchar('\n');
 }
